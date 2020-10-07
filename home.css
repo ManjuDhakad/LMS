@@ -1,0 +1,132 @@
+body{
+    background: linear-gradient(to top left, #f7f3c0 64%, #df90ad 100%);
+    max-width:100%;
+
+}
+
+header {
+    background-color:grey;
+    width: inherit;
+    opacity: 0.9;
+    margin:30px 6% 0 6%;
+    height: 30%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding : 5px 20px;
+}
+header img{
+    border-radius: 50%;
+}
+
+#title{
+    display: inline;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    /* text-shadow: 6px 6px  black; */
+    font-family: cursive;
+    font-size: 40px;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+input {
+    background: linear-gradient(to top left, #f7f3c0 64%, #df90ad 100%);
+    font-size: 20px;;
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px 20px 0 0;
+    width: 100%;
+}
+main{
+    background: linear-gradient(to top left, #f7f3c0 64%, #df90ad 100%);
+}
+
+.first{
+    margin:0 6%;
+    background: linear-gradient(to top left, #f7f3c0 64%, #df90ad 100%);
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_section{
+    /* color: white; */
+    font-size: 20px;
+    width: 30%;
+    background: linear-gradient(to top left, #f7f3c0 64%, #df90ad 100%);
+    padding-left: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+}
+
+.menu_section a{
+    text-decoration: none;
+    color:black;
+    display: inline;
+    margin-bottom: 10px;
+}
+.img_section{
+    background-repeat: none;
+    width: 100%;
+    margin: 10px;
+    padding:5px;
+}
+
+
+#course_tagline{
+    display: inline;
+    padding-left : 90px;
+    /* background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text; */
+    /* color: transparent; */
+    
+}
+.course_section{
+    /* margin: 10px 6%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.course_section_div{
+    padding: 10px;
+    background-color: grey;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+}
+#div1 {
+    display: block;
+    background-color: rgb(173, 238, 111);
+}
+
+#div2{
+    display: block;
+    background-color: rgb(197, 56, 56);
+}
+
+#div3{
+    display: block;
+    background-color: rgb(77, 43, 105);
+}
+#div4{
+    display: block;
+    background-color: rgb(238, 238, 78);
+}
+
+footer{
+    background-color: grey;
+    width: 90%;
+    height: 30px;
+    align-items: center;
+    margin-left: 80px;
+    padding-left:10px;
+    
+}
+    
+    
+
+
